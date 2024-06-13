@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 export default function Contact_page() {
@@ -19,7 +20,7 @@ export default function Contact_page() {
 
         <main className=" bg-slate-200 flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">            
           <div className="max-w-xl lg:max-w-3xl">
-            <a href=""> 
+            <a href="/"> 
               <Image
               height={90}
               width={150}
@@ -98,7 +99,7 @@ export default function Contact_page() {
                 </label>
 
                 <textarea
-                placeholder="enter your Query Here"
+                placeholder="Enter your Query "
                   type="text"
                   id="query"
                   name="query"
@@ -109,6 +110,12 @@ export default function Contact_page() {
               <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
                 <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
                   Submit  
+                </button>
+                <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
+                <FontAwesomeIcon icon="fa-solid fa-backward" />
+                <a href="/">
+                  Back  
+                  </a>
                 </button>
               </div>
             </form>

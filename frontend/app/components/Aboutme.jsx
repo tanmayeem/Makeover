@@ -39,7 +39,7 @@ export default function Aboutme() {
         unoptimized
         src="/Photo 1990 (1).jpg"
         className="h-56 w-full p-5 px-10  object-cover sm:h-full "
-        style={{ width: '70%', height: '90%' }}
+        style={{ width: '100%', height: '90%' }}
       />
     </section>
     </div>
